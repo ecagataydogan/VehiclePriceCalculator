@@ -1,6 +1,6 @@
 package classes;
 
-public class Automobile extends Vehicle{
+public abstract class Automobile extends Vehicle{
     protected double engineVolume;
     public static int BASE_PRICE = 200_000;
 

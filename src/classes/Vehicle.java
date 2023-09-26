@@ -2,7 +2,7 @@ package classes;
 
 import java.text.DecimalFormat;
 
-public class Vehicle {
+public abstract class Vehicle {
     public final String vehicleID;
     protected String monthOfSale;
     protected String cityOfSale;
@@ -53,15 +53,11 @@ public class Vehicle {
 
     //Dummy SCT value for overriding. There are five different calculation for SCT value.
     //Method will override for Hatchback, Sedan, Minivan, PickupTruck, Bicycle
-    protected double calculateSctValue() {
-        return 0.0;
-    }
+    protected abstract double calculateSctValue();
 
     // Dummy total price calculation for overriding. There are three different calculation for total price.
     //Method will override for Automobile, PickupTruck, Bicycle
-    protected double calculateTotalPrice() {
-        return 0.0;
-    }
+    protected abstract double calculateTotalPrice();
 
     @Override
     public String toString() {
