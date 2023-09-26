@@ -3,19 +3,9 @@ This is an VehiclePriceCalculator app.
 
 I have shared a sample output of the program below.
 
-OUTPUT:
-Please press,
-1 to see all sold vehicles list
-2 to see sold sedan list
-3 to see sold hatchback list
-4 to see sold minivan list
-5 to see sold pickup truck list
-6 to see sold bicycle list
-Please enter your choice: 1
-Vehicle: Minivan Vehicle ID: M235 Month: August City: Izmir Production Year: 2022 SCT: 0.***
-The total price paid for M235 is: ………… TL
-Vehicle: Bicycle Vehicle ID: B154 Month: January City: Izmir Production Year: 2020 SCT: 0.***
-The total price paid for B154 is: ………… TL
+SAMPLE OUTPUT:
+
+![Screen Shot 2023-09-27 at 00 58 20 AM](https://github.com/ecagataydogan/VehiclePriceCalculator/assets/101594855/cbf8ed08-9a3d-4b9f-8ac4-8c66c382974f)
 
 
 In this application there are sold vehicles which has vehicle ID, month of sale, city of sale and production 
@@ -80,5 +70,7 @@ Total price calculations:
 Total price paid for automobile = (Base Price) * (1 + SCT * 0.8) + (1 + VAT/100)
 Total price paid for pickup truck = (Base Price) * (1 + (SCT * 0.6)) + (1 + VAT/100)
 Total price paid for bicycle = (Base Price * 0.9) * (1 + SCT) + (1 + VAT/100)
+
+
 
 
